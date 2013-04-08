@@ -3,7 +3,7 @@
   <metadata>
     <id>clipx</id>
     <title>clipx</title>
-    <version>1.0.3.20130221</version>
+    <version>1.0.3.9-beta</version>
     <authors>lone@bluemars.org</authors>
     <owners>Francis Gastellu, Kurt Johnson</owners>
     <summary>ClipX clipboard history manager.</summary>
