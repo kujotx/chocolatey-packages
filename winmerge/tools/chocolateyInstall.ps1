@@ -1,0 +1,1 @@
+﻿  Install-ChocolateyPackage 'winmerge' 'EXE' '/VERYSILENT /SP- /NORESTART' 'http://sourceforge.net/projects/winmerge/files/stable/2.14.0/WinMerge-2.14.0-Setup.exe/download?r=http%3A%2F%2Fchocolatey.org%2&ts=1344509105'
