@@ -3,7 +3,7 @@
   <metadata>
     <id>wireshark</id>
     <title>WireShark</title>
-    <version>1.10.2.20130913</version>
+    <version>{{PackageVersion}}</version>
     <authors>Gerald Combs, WireShark team</authors>
     <owners>kujotx, WireShark team</owners>
     <summary>Wireshark</summary>

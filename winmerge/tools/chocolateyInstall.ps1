@@ -1,1 +1,7 @@
-﻿  Install-ChocolateyPackage 'winmerge' 'EXE' '/VERYSILENT /SP- /NORESTART' 'http://sourceforge.net/projects/winmerge/files/stable/2.14.0/WinMerge-2.14.0-Setup.exe/download?r=http%3A%2F%2Fchocolatey.org%2&ts=1344509105'
+﻿$packageName = "{{PackageName}}"
+$fileType = "exe"
+$silentArgs = "/VERYSILENT /SP- /NORESTART"
+$url = '{{DownloadUrl}}' # download url
+$url64 = '{{DownloadUrlx64}}' # 64bit URL here or just use the same as $url
+
+Install-ChocolateyPackage $packageName $fileType $silentArgs $url $url64bit
