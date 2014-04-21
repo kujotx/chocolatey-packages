@@ -1,13 +1,6 @@
-﻿function Get-Host( [System.String]$DownloadUrl){
-	$uri = [System.Uri]$DownloadUrl
-	return "$($uri.Scheme)://$($uri.Host)"
-}
-
-$packageName = "{{PackageName}}"
+﻿$packageName = "{{PackageName}}"
 $fileType = "exe"
 $silentArgs = "/S /quicklaunchicon=no"
-$url = '{{DownloadUrl}}' # download url
-$downloadUrl64 = '{{DownloadUrlx64}}' # 64bit URL here or just use the same as $url
-$downloadhost = (Get-Host $url)
-$url64 =  "$($downloadhost)$($downloadUrl64)"
-Install-ChocolateyPackage $packageName $fileType $silentArgs $url $url64
+$url =           'http://wiresharkdownloads.riverbed.com/wireshark/win32/all-versions/Wireshark-win32-{{PackageVersion}}.exe' # download url
+$downloadUrl64 = 'http://wiresharkdownloads.riverbed.com/wireshark/win64/all-versions/Wireshark-win64-{{PackageVersion}}.exe' # 64bit URL here or just use the same as $url
+Install-ChocolateyPackage $packageName $fileType $silentArgs $url $downloadUrl64
