@@ -19,4 +19,7 @@ Wireshark development thrives thanks to the contributions of networking experts 
       <dependency id='winpcap' />
 	 </dependencies> 
   </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
 </package>
