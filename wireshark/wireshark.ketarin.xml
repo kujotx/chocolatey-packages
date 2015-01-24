@@ -71,8 +71,8 @@
     <WebsiteUrl />
     <UserAgent>Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.168 Safari/535.19</UserAgent>
     <UserNotes />
-    <LastFileSize>22122096</LastFileSize>
-    <LastFileDate>2013-12-22T02:06:04-06:00</LastFileDate>
+    <LastFileSize>23579536</LastFileSize>
+    <LastFileDate>2015-01-08T03:01:31.1298579</LastFileDate>
     <IgnoreFileInformation>false</IgnoreFileInformation>
     <DownloadBeta>Default</DownloadBeta>
     <DownloadDate xsi:nil="true" />
@@ -132,13 +132,13 @@
     <ExecutePreCommandType>Batch</ExecutePreCommandType>
     <Category />
     <SourceType>FixedUrl</SourceType>
-    <PreviousLocation>C:\Chocolatey\_work\Wireshark-win32-1.10.5.exe</PreviousLocation>
+    <PreviousLocation>C:\ProgramData\Chocolatey\_work\Wireshark-win32-1.12.3.exe</PreviousLocation>
     <DeletePreviousFile>true</DeletePreviousFile>
     <Enabled>true</Enabled>
     <FileHippoId />
-    <LastUpdated>2013-12-22T14:32:05.4577063-06:00</LastUpdated>
-    <TargetPath>C:\Chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl>http://wiresharkdownloads.riverbed.com/wireshark/win32/all-versions/Wireshark-win32-{version}.exe</FixedDownloadUrl>
+    <LastUpdated>2015-01-08T03:01:31.1298579</LastUpdated>
+    <TargetPath>C:\ProgramData\Chocolatey\_work\</TargetPath>
+    <FixedDownloadUrl>http://wiresharkdownloads.riverbed.com/wireshark/win32/Wireshark-win32-{version}.exe</FixedDownloadUrl>
     <Name>wireshark</Name>
   </ApplicationJob>
 </Jobs>
