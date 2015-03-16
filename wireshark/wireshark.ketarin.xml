@@ -138,7 +138,8 @@
     <FileHippoId />
     <LastUpdated>2015-01-08T03:01:31.1298579</LastUpdated>
     <TargetPath>C:\ProgramData\Chocolatey\_work\</TargetPath>
-    <FixedDownloadUrl>http://wiresharkdownloads.riverbed.com/wireshark/win32/Wireshark-win32-{version}.exe</FixedDownloadUrl>
+    <!-- List of mirrors at https://www.wireshark.org/mirror.html -->
+    <FixedDownloadUrl>https://1.na.dl.wireshark.org/win32/Wireshark-win32-{version}.exe</FixedDownloadUrl>
     <Name>wireshark</Name>
   </ApplicationJob>
 </Jobs>
