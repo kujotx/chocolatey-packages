@@ -12,7 +12,7 @@ Wireshark development thrives thanks to the contributions of networking experts 
     <projectUrl>http://www.wireshark.org</projectUrl>
 	<releaseNotes>https://www.wireshark.org/docs/relnotes/</releaseNotes>
 	<packageSourceUrl>https://github.com/kujotx/chocolatey-packages/tree/master/wireshark</packageSourceUrl>
-	<iconUrl>https://raw.github.com/kujotx/chocolatey-packages/master/wireshark/wireshark.png</iconUrl>
+	<iconUrl>http://cdn.rawgit.com/kujotx/chocolatey-packages/master/wireshark/wireshark.png</iconUrl>
 	<docsUrl>https://wiki.wireshark.org/</docsUrl>
 	<projectSourceUrl>https://code.wireshark.org/review/wireshark</projectSourceUrl>
 	<bugTrackerUrl>https://bugs.wireshark.org/bugzilla/</bugTrackerUrl>
