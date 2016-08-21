@@ -11,6 +11,10 @@
 Wireshark development thrives thanks to the contributions of networking experts across the globe. It is the continuation of a project that started in 1998.</description>
     <projectUrl>http://www.wireshark.org</projectUrl>
 	<iconUrl>https://raw.github.com/kujotx/chocolatey-packages/master/wireshark/wireshark.png</iconUrl>
+	<docsUrl>https://wiki.wireshark.org/</docsUrl>
+	<projectSourceUrl>https://code.wireshark.org/review/wireshark</projectSourceUrl>
+	<bugTrackerUrl>https://bugs.wireshark.org/bugzilla/</bugTrackerUrl>
+	<mailingListUrl>https://www.wireshark.org/lists/</mailingListUrl>
     <tags>wireshark network protocol analyzer sniffer admin</tags>
     <licenseUrl>http://www.gnu.org/copyleft/gpl.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
