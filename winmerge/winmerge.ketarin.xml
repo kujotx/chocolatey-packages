@@ -29,7 +29,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>StartEnd</VariableType>
             <Regex />
-            <Url><placeholder name="Url with version information" value="http://www.winmerge.com/download/" /></Url>
+            <Url><placeholder name="Url with version information" value="http://www.winmerge.org/download/" /></Url>
             <StartText>&lt;TABLE cellspacing ="1" cellpadding ="6" border = "0"&gt;
   &lt;TR&gt;
     &lt;TH class="Title" align="center" width=90&gt;7-Zip </StartText>
@@ -94,7 +94,7 @@
             <RegexRightToLeft>false</RegexRightToLeft>
             <VariableType>StartEnd</VariableType>
             <Regex />
-            <Url>http://sourceforge.net/projects/winmerge/files/</Url>
+            <Url>https://sourceforge.net/projects/winmerge/files/</Url>
             <StartText>&lt;div class="download-bar"&gt;
             Looking for the latest version? &lt;strong&gt;
             &lt;a href="/projects/winmerge/files/latest/download?source=files" title="/stable/2.14.0/WinMerge-2.14.0-Setup.exe:  released on 2013-02-03 15:40:03 UTC"&gt;
