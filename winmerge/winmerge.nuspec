@@ -11,6 +11,7 @@
 | Please install with chocolatey (http://nuget.org/List/Packages/chocolatey).</description>
     <iconUrl>http://a.fsdn.com/con/icons/wi/winmerge@sf.net/winmerge.png</iconUrl>
     <projectUrl>http://winmerge.org/</projectUrl>
+    <packageSourceUrl>https://github.com/kujotx/chocolatey-packages/tree/master/winmerge</packageSourceUrl>
     <tags>chocolatey winmerge diff merge</tags>
     <licenseUrl>http://www.gnu.org/licenses/gpl-2.0.html</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
