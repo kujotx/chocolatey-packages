@@ -171,3 +171,5 @@ pip-log.txt
 
 # Mac crap
 .DS_Store
+update_vars.ps1
+update_vars_default.ps1
