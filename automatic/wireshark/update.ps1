@@ -1,6 +1,6 @@
 import-module au
 
-$releases = 'http://wireshark.org/download.html'
+$releases = 'https://wireshark.org/download.html'
 
 function global:au_SearchReplace {
     @{
@@ -21,7 +21,7 @@ function global:au_GetLatest {
     
     $version = $url64 -split '-|.exe' | select -Last 1 -Skip 1
 	
-	$re32 = '(http[s]?|[s]?)(:\/\/)([^\s,]+)\/win32\/[Ww]ire[Ss]hark-win32-[\d\.]+\.exe$'
+	$re32 = '(https)(:\/\/)([^\s,]+)\/win32\/[Ww]ire[Ss]hark-win32-[\d\.]+\.exe$'
 	$url32 = $download_page.Links | ? href -match $re32 | select -First 1 -expand href
 
     return @{ URL32 = $url32; URL64 = $url64; Version = $version }
