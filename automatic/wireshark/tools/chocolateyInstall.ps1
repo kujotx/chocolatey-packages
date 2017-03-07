@@ -1,10 +1,10 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = 'WireShark'
-$url32       = 'https://1.na.dl.wireshark.org/win32/Wireshark-win32-2.2.4.exe'
-$checksum32  = '2c36978d0367aac1881d68ede14dcbd8003b78a45a30a30dc5086bf7ccc64d48'
-$url64	     = 'https://1.na.dl.wireshark.org/win64/Wireshark-win64-2.2.4.exe'
-$checksum64  = '0dabf7f5cba2101ef9303a50c81ef9eb9d59738ff62b4f4c5bba5a15ca4671f8'
+$url32       = 'https://1.na.dl.wireshark.org/win32/Wireshark-win32-2.2.5.exe'
+$checksum32  = 'a99a8cc1df24b31ab9ad963c2d1133982e0e9f2b33e8bfab8ac313c16e432da3'
+$url64	     = 'https://1.na.dl.wireshark.org/win64/Wireshark-win64-2.2.5.exe'
+$checksum64  = 'ab2723ba25dcf1e2f60faa579c1cad3e88ebcf53cf1a2a6897094b9f447fb864'
 
 $toolsPath   = Split-Path $MyInvocation.MyCommand.Definition
 
