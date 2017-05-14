@@ -1,6 +1,6 @@
 import-module au
 
-$releases = 'https://wireshark.org/download.html'
+$releases = 'https://www.wireshark.org/#download'
 
 function global:au_SearchReplace {
     @{
