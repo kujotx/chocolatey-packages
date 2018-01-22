@@ -3,12 +3,15 @@
   <metadata>
     <id>wireshark</id>
     <title>Wireshark</title>
-    <version>2.4.3</version>
+    <version>2.4.4</version>
     <authors>Gerald Combs, Wireshark team</authors>
     <owners>kujotx, Wireshark team</owners>
     <summary>Wireshark</summary>
-    <description>Wireshark is the world's foremost network protocol analyzer. It lets you capture and interactively browse the traffic running on a computer network. It is the de facto (and often de jure) standard across many industries and educational institutions.
-Wireshark development thrives thanks to the contributions of networking experts across the globe. It is the continuation of a project that started in 1998.</description>
+    <description><![CDATA[This Chocolatey spec installs the premier network analyzer.
+
+The Wireshark home site is at http://www.wireshark.org/
+Latest downloads for Wireshark are at http://www.wireshark.org/download.html
+]]></description>
     <projectUrl>http://www.wireshark.org</projectUrl>
 	<releaseNotes>https://www.wireshark.org/docs/relnotes/</releaseNotes>
 	<packageSourceUrl>https://github.com/kujotx/chocolatey-packages/tree/master/wireshark</packageSourceUrl>
