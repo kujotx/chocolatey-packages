@@ -15,7 +15,7 @@ Latest downloads for Wireshark are at http://www.wireshark.org/download.html
     <projectUrl>http://www.wireshark.org</projectUrl>
 	<releaseNotes>https://www.wireshark.org/docs/relnotes/</releaseNotes>
 	<packageSourceUrl>https://github.com/kujotx/chocolatey-packages/tree/master/wireshark</packageSourceUrl>
-	<iconUrl>https://cdn.rawgit.com/chocolatey/chocolatey-coreteampackages/bb198f7f2c19aa099ec6be29b1ad9eb187437c0e/icons/wireshark.png</iconUrl>
+	<iconUrl>https://upload.wikimedia.org/wikipedia/commons/d/df/Wireshark_icon.svg</iconUrl>
 	<docsUrl>https://wiki.wireshark.org/</docsUrl>
 	<projectSourceUrl>https://code.wireshark.org/review/wireshark</projectSourceUrl>
 	<bugTrackerUrl>https://bugs.wireshark.org/bugzilla/</bugTrackerUrl>
