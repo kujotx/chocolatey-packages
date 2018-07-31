@@ -139,7 +139,7 @@
     <LastUpdated>2015-01-08T03:01:31.1298579</LastUpdated>
     <TargetPath>C:\ProgramData\Chocolatey\_work\</TargetPath>
     <!-- List of mirrors at https://www.wireshark.org/mirror.html -->
-    <FixedDownloadUrl>https://1.na.dl.wireshark.org/win32/Wireshark-win32-{version}.exe</FixedDownloadUrl>
+    <FixedDownloadUrl>https://www.wireshark.org/download/win32/Wireshark-win32-{version}.exe</FixedDownloadUrl>
     <Name>wireshark</Name>
   </ApplicationJob>
 </Jobs>
