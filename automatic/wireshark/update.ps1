@@ -30,19 +30,11 @@ function GetDownloadLink([string] $downloadlinks, [string] $pattern, [string] $v
 
 function global:au_GetLatest {
     $version = GetVersion
-
-    #$download64_page = Invoke-WebRequest -Uri $releases64
+    
     $r64  = '[Ww]ire[Ss]hark-win64-[\d\.]+\.exe$'
-    #$link64 = $download64_page.links | ? {($_.innerHTML -like '*' + $version + '*') -And ($_.innerHTML -match $r64)} | Select -first 1 -expand href
-    #$url64 = $download64_page.BaseResponse.ResponseUri.ToString() + $link64
-
     $url64 = GetDownloadLink -downloadlinks $releases64 -pattern $r64 -version $version
 	
-	#$download32_page = Invoke-WebRequest -Uri $releases32
-    $r32 = '[Ww]ire[Ss]hark-win32-[\d\.]+\.exe$'
-    #$link32 = $download32_page.links | ? {($_.innerHTML -like '*' + $version + '*') -And ($_.innerHTML -match $r32)} | Select -first 1 -expand href
-    #$url32 = $download32_page.BaseResponse.ResponseUri.ToString() + $link32
-    
+    $r32 = '[Ww]ire[Ss]hark-win32-[\d\.]+\.exe$'   
     $url32 = GetDownloadLink -downloadlinks $releases32 -pattern $r32 -version $version
 
     return @{ URL32 = $url32; URL64 = $url64; Version = $version }
