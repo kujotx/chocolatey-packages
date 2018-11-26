@@ -1,8 +1,8 @@
 ﻿$ErrorActionPreference = 'Stop'
 
 $packageName = 'WinMerge'
-$url32       = 'http://downloads.sourceforge.net/winmerge/WinMerge-2.14.0-Setup.exe'
-$checksum32  = 'cec2226c9d5e2fefa1538fa318d4c210d6c9a8b4bd25c893c085377c1e3be58b'
+$url32       = 'https://downloads.sourceforge.net/winmerge/WinMerge-2.16.0-Setup.exe'
+$checksum32  = 'a820e09ef8374295849ec7cb3906fb9db10d1f223cde1579ba166fa3b8851639'
 
 $toolsPath   = Split-Path $MyInvocation.MyCommand.Definition
 
