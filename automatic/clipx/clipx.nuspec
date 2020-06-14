@@ -2,15 +2,14 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
     <id>clipx</id>
-    <title>clipx</title>
-    <version>1.0.3.8</version>
+    <title>[Deprecated] clipx</title>
+    <version>2.0.0.0</version>
     <authors>lone@bluemars.org</authors>
     <owners>Francis Gastellu, Kurt Johnson</owners>
-    <summary>ClipX clipboard history manager.</summary>
-    <description>Clipx is a tiny clipboard history manager. It is sweet, it is free, use it.
-| Please install with chocolatey (http://nuget.org/List/Packages/chocolatey).</description>
+    <description>Clipx is not currently maintained</description>
     <projectUrl>http://bluemars.org/clipx/</projectUrl>
-    <tags>clipx chocolatey admin</tags>
+    <tags>deprecated</tags>
+    <files />
     <licenseUrl>http://bluemars.org/clipx/</licenseUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
   </metadata>
